@@ -13,7 +13,7 @@ def automatic_email():
     user = input("TYPE YOUR USER:\t").upper()
     email = input("TYPE YOU MAIL:\t")
     message = (
-        f"Subject: Sending emails using Python.\nHELLO {user}, THIS MAIL WAS SEND USING PYTHON 🐍.")
+        f"Subject: Sending emails using Python.\nHELLO {user}, THIS MAIL WAS SEND USING PYTHON.")
 
     # Set connection
     connection = smtplib.SMTP(host='smtp.gmail.com', port=587)
